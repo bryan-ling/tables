@@ -1,0 +1,10 @@
+			<tr>
+				<td colspan="2" class="titles" class="digestive"></td>
+			</tr>
+			<tr>
+				<td class="subtitles" colspan="2" class="digestive"></td>
+			</tr>
+			<tr>
+				<td class="questions"></td>
+				<td class="answers"></td>
+			</tr>
