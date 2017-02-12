@@ -1,0 +1,69 @@
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 60px;
+	color: white;
+	border: solid 5px white;
+	width: 500px;
+	margin: auto;
+	}
+.ShowAnswersButton{
+	width: 7vw;
+	height: 7vw;
+	border-radius: 100%;
+	border: #CF000F solid 5px;
+	position: fixed;
+	right: 5px;
+	top: 5px;
+	background-color: white;
+}
+.ShowQuestionsButton{
+	width: 7vw;
+	height: 7vw;
+	border-radius: 100%;
+	border: #CF000F solid 5px;
+	position: fixed;
+	left: 5px;
+	top: 5px;
+	background-color: rgba(245, 171, 53, 0.5);
+}
+
+.ShowAllAnswersButtonClick{
+	background-color:  rgba(245, 171, 53, 0.5);
+}
+
+.titles{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 40px;
+	padding: 0;
+	background-color: #CF000F ;
+	height: 0;
+	color: white;
+	width: 500px;
+}
+.subtitles{
+	text-align: center;
+	font-weight: bold;
+	padding: 0;
+	background-color: #CF000F ;
+	height: 0;
+	color: white;
+}
+table{
+	display: block;
+	width: 600px;
+	margin:auto;
+	background-color: rgba(245, 171, 53, 0.5);
+	margin-top: 20px;
+	
+}
+
+.background{
+	background-image: url("../images/spanish background.jpg");
+	padding-top: 20px;
+	background-size: cover;
+	background-attachment:fixed;
+}
+

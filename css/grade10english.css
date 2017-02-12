@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu Condensed';
+	
+}
+
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 60px;
+	color: black;
+	border: solid 5px black;
+	width: 500px;
+	margin: auto;
+	}
+.ShowAnswersButton{
+	width: 7vw;
+	height: 7vw;
+	border-radius: 100%;
+	border: #E9D460 solid 5px;
+	position: fixed;
+	right: 5px;
+	top: 5px;
+	background-color: white;
+}
+.ShowQuestionsButton{
+	width: 7vw;
+	height: 7vw;
+	border-radius: 100%;
+	border: #E9D460 solid 5px;
+	position: fixed;
+	left: 5px;
+	top: 5px;
+	background-color: rgba(243, 156, 18, 0.5);
+}
+
+.ShowAllAnswersButtonClick{
+	background-color:  rgba(243, 156, 18, 0.5);
+}
+.ShowAllQuestionsButtonClick{
+	background-color:  white;
+}
+.titles{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 40px;
+	padding: 0;
+	background-color: #E9D460;
+	height: 0;
+	color: white;
+	width: 500px;
+}
+.subtitles{
+	text-align: center;
+	font-weight: bold;
+	padding: 0;
+	background-color: #E9D460;
+	height: 0;
+	color: white;
+}
+table{
+	display: block;
+	width: 600px;
+	margin:auto;
+	background-color: rgba(243, 156, 18, 0.5);
+	margin-top: 20px;
+	
+}
+td{
+	background-color: white;
+	font-size: 25px;
+	height: 100px;
+	padding-left: 2%;
+	min-width: 170px;
+}
+.answers{
+	opacity: 0;
+	background-color: white;
+}
+.answersall{
+	opacity: 1;
+	background-color: white;
+}
+.questions{
+	opacity: 1;
+	background-color: white;
+}
+.questionsall{
+	opacity: 0;
+	background-color: white;
+}
+.answers:hover{
+	opacity: 1;
+}
+.questions:hover{
+	opacity: 1;
+}
+/*indents*/
+span{
+	margin-left: 40px;
+}
+img{
+	width: 170px;
+	
+}
+.background{
+	background-image: url("../images/grade10english.jpg");
+	padding-top: 20px;
+	background-size: cover;
+	background-attachment:fixed;
+}
+

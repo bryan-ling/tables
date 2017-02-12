@@ -1,0 +1,76 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu Condensed';
+}
+
+.float{
+	height: 50vh;
+	width: 50%;
+	float: left;
+	display: inline-block;
+	-webkit-transition:background-image 0.4s ease-in-out;
+	overflow:auto;
+}
+.anchor{
+	height: 100%;
+	width: 100%;
+}
+
+.title{
+	position: fixed;
+	height: 200px;
+	width: 500px;
+	border: solid white 5px;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 40vh;
+	color: white;
+	font-size: 100px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 90px;
+	text-shadow: 5px 5px 7px #000000;
+}
+.float.biology{
+	background-image: url("../images/biologygrey.png");
+	background-size: cover;
+	background-position: center center;
+	 
+	
+}
+.float.biology:hover{
+	background-image: url("../images/biologycolor.png");
+	
+}
+.optics{
+	background-image: url("../images/opticsgrey.png");
+	background-size: cover;
+	background-position: center center;
+}
+.optics:hover{
+	background-image: url("../images/opticscolor.png");
+
+}
+.chemistry{
+	background-image: url("../images/chemistrygrey.png");
+	background-size: cover;
+	background-position: center center;
+}
+.chemistry:hover{
+	background-image: url("../images/chemistrycolor.png");
+
+}
+
+.climate{
+	background-image: url("../images/climategrey.png");
+	background-size: cover;
+	background-position: center center;
+}
+.climate:hover{
+	background-image: url("../images/climatecolor.png");
+
+}
+

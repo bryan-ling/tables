@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $(".ShowAnswersButton").click(function(){
+        $(".answers").toggleClass("answersall");
+		$(".ShowAnswersButton").toggleClass("ShowAllAnswersButtonClick");
+    });
+	$(".ShowQuestionsButton").click(function(){
+        $(".questions").toggleClass("questionsall");
+		$(".ShowQuestionsButton").toggleClass("ShowAllQuestionsButtonClick");
+    });
+});

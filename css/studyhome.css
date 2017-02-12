@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu Condensed';
+}
+a{
+	text-decoration: none;
+}
+.SubjectBox{
+	height: 15em;
+	width: 12em;
+	position: relative;
+	display: inline-block;
+	margin: 1em;
+	
+}
+.Slide{
+	height: 100%;
+	width: 100%;
+	display: none;
+	position: absolute;
+    bottom:0;
+	padding-top: 5em;
+}
+.Grade10Semester2{
+	display: block;
+	margin: auto;
+	width: 57em;
+}
+.Grade10Semester1{
+	display: block;
+	margin: auto;
+	width: 57em;
+}
+.OtherCourses{
+	background-color: black;
+	display: block;
+}
+h1{
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	vertical-align: middle;
+	line-height: 30px;
+
+}
+h2{
+	text-align: center;
+}
+#Science{
+	background-color :rgba(0, 177, 106, 0.85);
+}
+#Accounting{
+	background-color :rgba(58, 83, 155, 0.85);
+}
+#English{
+	background-color :rgba(233,212,96, 0.85);
+}
+#History{
+	background-color :rgba(192, 57, 43, 0.85);
+}
+#Math{
+	background-color :rgba(242, 38, 19, 0.6);
+}
+#Spanish{
+	background-color :rgba(207, 0, 15, 0.6);
+}
+#ScienceBackground{
+	background-image: url("../images/biology background.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+
+#AccountingBackground{
+	background-image: url("../images/grade11accounting.jpg");
+	background-size: cover;
+}
+#EnglishBackground{
+	background-image: url("../images/grade10english.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+#HistoryBackground{
+	background-image: url("../images/grade10canadianhistory.jpg");
+	background-size: cover;
+}#MathBackground{
+	background-image: url("../images/grade10math.jpg");
+	background-size: cover;
+}
+#SpanishBackground{
+	background-image: url("../images/spanish background gray.jpg");
+	background-size: cover;
+	background-position: center center;
+}

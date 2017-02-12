@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu Condensed';
+	
+}
+td{
+	background-color: white;
+	font-size: 25px;
+	height: 100px;
+	padding-left: 2%;
+	min-width: 170px;
+}
+.answers{
+	opacity: 0;
+	background-color: white;
+	width: 100%;
+}
+.answersall{
+	opacity: 1;
+	background-color: white;
+}
+.questions{
+	opacity: 1;
+	background-color: white;
+}
+.questionsall{
+	opacity: 0;
+	background-color: white;
+}
+.answers:hover{
+	opacity: 1;
+}
+.questions:hover{
+	opacity: 1;
+}
+/*indents*/
+span{
+	margin-left: 40px;
+}
+img{
+	width: 170px;
+	
+}
+.ShowAllQuestionsButtonClick{
+	background-color:  white;
+}

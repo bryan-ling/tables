@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu Condensed';
+	
+}
+
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 60px;
+	color: white;
+	border: solid 5px white;
+	width: 500px;
+	margin: auto;
+	}
+.ShowAllButton{
+	width: 7vw;
+	height: 7vw;
+	border-radius: 100%;
+	border: #F9BF3B solid 5px;
+	position: fixed;
+	right: 5px;
+	top: 5px;
+	background-color: white;
+}
+.ShowAllButtonClick{
+	background-color: rgba(235, 149, 50, 1);
+}
+.titles{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 40px;
+	padding: 0;
+	background-color: #F9BF3B;
+	height: 0;
+}
+.subtitles{
+	text-align: center;
+	font-weight: bold;
+	padding: 0;
+	background-color: #F9BF3B;
+	height: 0;
+}
+table{
+	display: block;
+	width: 500px;
+	margin:auto;
+	background-color: rgba(245, 171, 53, 0.5);
+	margin-top: 20px;
+	
+}
+td{
+	background-color: white;
+	font-size: 25px;
+	height: 100px;
+	padding-left: 2%;
+}
+.answers{
+	opacity: 0;
+	background-color: white;
+}
+.answersall{
+	opacity: 1;
+	background-color: white;
+}
+.answers:hover{
+	opacity: 1;
+}
+/*indents*/
+span{
+	margin-left: 40px;
+}
+img{
+	width: 170px;
+	
+}
+.background{
+	background-image: url("../images/optics background.jpg");
+	padding-top: 20px;
+	background-size: cover;
+	background-attachment:fixed;
+}
+

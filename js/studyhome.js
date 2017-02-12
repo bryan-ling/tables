@@ -1,0 +1,10 @@
+$(document).ready(function(){
+	$(".SubjectBox").hover(function(){
+		$(this).find('#Science').stop().slideToggle(250);
+		$(this).find('#Accounting').stop().slideToggle(250);
+		$(this).find('#English').stop().slideToggle(250);
+		$(this).find('#History').stop().slideToggle(250);
+		$(this).find('#Math').stop().slideToggle(250);
+		$(this).find('#Spanish').stop().slideToggle(250);
+	});
+});
