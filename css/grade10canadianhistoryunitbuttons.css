@@ -1,0 +1,53 @@
+
+.Units{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	 
+	 margin:auto;
+	 width: 350px;
+	 padding-left: 30px;
+
+
+}
+.UnitsRow{ 
+  margin-top: 10px;
+
+
+
+
+
+  
+}
+.UnitSelect{
+  width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	border: #C0392B solid 4px;
+	background-color: white;
+	float:left;
+	margin-right: 10px;
+
+
+
+  
+}
+.UnitOneUnselect{
+	border: #C0392B solid 4px;
+	background-color:  rgba(150, 40, 27, 0.5);
+
+  
+}
+.UnitWords p{
+  color: white; 
+  font-size: 25px;
+  padding-top: 5px;
+  margin-left: 10px;
+
+
+}
+
+.HideUnit{
+	display: none;
+	
+}
+

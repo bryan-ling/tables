@@ -16,8 +16,8 @@ h1{
 	margin: auto;
 	}
 .ShowAnswersButton{
-	width: 7vw;
-	height: 7vw;
+	width: 100px;
+	height: 100px;
 	border-radius: 100%;
 	border: #C0392B solid 5px;
 	position: fixed;
@@ -26,8 +26,8 @@ h1{
 	background-color: white;
 }
 .ShowQuestionsButton{
-	width: 7vw;
-	height: 7vw;
+	width: 100px;
+	height: 100px;
 	border-radius: 100%;
 	border: #C0392B solid 5px;
 	position: fixed;

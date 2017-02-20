@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: grey;
+}
+.DocsIcon{
+  height: 6em;
+  width: 6em;
+  border-radius: 35%;
+  background-image: url("http://icons.iconarchive.com/icons/dtafalonso/android-lollipop/512/Docs-icon.png");
+   background-size: cover;
+  background-color: white;
+   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(50%);
+  transition: border-radius 0.2s ease, filter 0.3s ease; 
+  cursor: pointer;
+  float: left
+}
+
+.DocsIconOn{
+     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(0%);
+  border-radius: 100%;
+  transition: border-radius 1s ease, filter 0.5s ease; 
+}
+.DocsIcon:hover{
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  border-radius: 100%;
+  transition: border-radius 1s ease, filter 0.5s ease; 
+}
+
+.DocsButton{
+	position: fixed;
+	top: 130px;
+	left: 10px;
+	
+}
+
+.DocsLinks{
+  height: 5em;
+  background-color: rgba(0, 0, 0, 1);
+  float: left;
+  width: 150px;
+  margin-top: 0.5em; 
+  margin-left:0.5em;
+  opacity: 0;
+  transition: opacity 0.3s ease; 
+   
+  
+}
+.DocsLinksShow{
+  opacity: 1;
+  transition: opacity 0.3s ease; 
+}
+
+.DocsLinks p a{
+  color: white;
+  text-transform: uppercase;
+ position: relative;
+  left:55px;
+  top: 27px;
+  margin-right: 50px;
+  float: left;
+  cursor: pointer;
+  opacity: 0.6;
+   transition: opacity 0.4s ease;
+  -webkit-transition: opacity 0.4s ease;
+  font-size: 20px;
+  text-decoration:none;
+}
+.DocsLinks p a:hover{
+
+  opacity: 1; 
+  transition: opacity 0.4s ease;
+  -webkit-transition: opacity 0.4s ease;
+  
+}
+  
+
+  
+  

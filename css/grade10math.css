@@ -16,8 +16,8 @@ h1{
 	margin: auto;
 	}
 .ShowAnswersButton{
-	width: 7vw;
-	height: 7vw;
+	width: 100px;
+	height: 100px;
 	border-radius: 100%;
 	border: #F22613 solid 5px;
 	position: fixed;
@@ -26,8 +26,8 @@ h1{
 	background-color: white;
 }
 .ShowQuestionsButton{
-	width: 7vw;
-	height: 7vw;
+	width: 100px;
+	height: 100px;
 	border-radius: 100%;
 	border: #F22613 solid 5px;
 	position: fixed;
@@ -61,11 +61,11 @@ h1{
 	color: white;
 }
 table{
-	display: block;
 	width: 500px;
 	margin:auto;
 	background-color: rgba(150, 40, 27, 0.5);
-	margin-top: 20px;
+	margin-top: 30px;
+	
 	
 }
 td{
@@ -108,6 +108,16 @@ img{
 	background-image: url("../images/grade10math.jpg");
 	padding-top: 20px;
 	background-size: cover;
-	background-attachment:fixed;
+	background-attachment: fixed;
+
 }
+
+
+
+
+
+
+
+
+
 
