@@ -22,7 +22,7 @@
   width: 40px;
 	height: 40px;
 	border-radius: 100%;
-	border: black solid 4px;
+	border: #E9D460 solid 4px;
 	background-color: white;
 	float:left;
 	margin-right: 10px;
@@ -32,13 +32,13 @@
   
 }
 .UnitOneUnselect{
-	border: black solid 4px;
+	border: #E9D460 solid 4px;
 	background-color:  rgba(243, 156, 18, 0.5);
 
   
 }
 .UnitWords p{
-  color: black; 
+  color: white; 
   font-size: 25px;
   padding-top: 5px;
   margin-left: 10px;
