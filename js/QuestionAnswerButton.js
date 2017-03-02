@@ -24,4 +24,9 @@ $(document).ready(function(){
 
 		$(".UnitTwo").toggleClass("HideUnit");
     });
+	$("#UnitThree").click(function(){
+
+		$(".UnitThree").toggleClass("HideUnit");
+    });
+	
 });
