@@ -28,5 +28,8 @@ $(document).ready(function(){
 
 		$(".UnitThree").toggleClass("HideUnit");
     });
-	
+	$("#UnitFour").click(function(){
+
+		$(".UnitFour").toggleClass("HideUnit");
+    });
 });
