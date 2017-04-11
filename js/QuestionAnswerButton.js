@@ -32,4 +32,8 @@ $(document).ready(function(){
 
 		$(".UnitFour").toggleClass("HideUnit");
     });
+	$("#UnitFive").click(function(){
+
+		$(".UnitFive").toggleClass("HideUnit");
+    });
 });
