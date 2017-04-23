@@ -1,0 +1,36 @@
+.highlight{
+	position: fixed;
+	top: 260px;
+	left: 15px;
+	background-image: url("http://cliparts.co/cliparts/dc9/Kkr/dc9Kkrxqi.png");
+	background-size: 57%;
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 6em;
+	width: 6em;
+	 border-radius: 35%;
+	 filter: invert(0%);
+	 transition: border-radius 0.2s ease, filter 0.3s ease; 
+}
+
+.highlight:hover{
+	border-radius: 100%;
+	 transition: border-radius 1s ease; 
+}
+
+.highlighter{
+	filter: invert(100%);
+	border-radius: 100%;
+}
+
+.black{
+  background-color:grey;
+  transition:  background-color 0.2s ease;
+}
+
+.blacker{
+  color: white;
+  background-color: black;
+   transition:  background-color 0s ease;
+}

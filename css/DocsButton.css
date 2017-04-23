@@ -48,13 +48,15 @@ body{
   margin-top: 0.5em; 
   margin-left:0.5em;
   opacity: 0;
-  transition: opacity 0.3s ease; 
+  transition: opacity 0.3s ease;
+ display: none;  
    
   
 }
 .DocsLinksShow{
   opacity: 1;
   transition: opacity 0.3s ease; 
+  display: inline;
 }
 
 .DocsLinks p a{
@@ -71,6 +73,7 @@ body{
   -webkit-transition: opacity 0.4s ease;
   font-size: 20px;
   text-decoration:none;
+ 
 }
 .DocsLinks p a:hover{
 
