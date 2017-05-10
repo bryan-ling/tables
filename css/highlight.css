@@ -20,7 +20,13 @@
 }
 
 .highlighter{
-	filter: invert(100%);
+	border-radius: 100%;
+	background-color: black;
+}
+
+.highlighter{
+	background-image: none;
+	background-color: black;
 	border-radius: 100%;
 }
 
@@ -33,4 +39,16 @@
   color: white;
   background-color: black;
    transition:  background-color 0s ease;
+}
+
+#highlighted{
+	color: white;
+	position: fixed;
+	top: 290px;
+	font-size: 30px;
+	left: 33px;
+	text-align: center;
+	width: 2em;
+	background-color: black;
+	margin: auto;
 }
