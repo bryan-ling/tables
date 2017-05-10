@@ -36,4 +36,8 @@ $(document).ready(function(){
 
 		$(".UnitFive").toggleClass("HideUnit");
     });
+	$("#UnitSix").click(function(){
+
+		$(".UnitSix").toggleClass("HideUnit");
+    });
 });
