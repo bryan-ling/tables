@@ -12,6 +12,7 @@
 	 border-radius: 35%;
 	 filter: invert(0%);
 	 transition: border-radius 0.2s ease, filter 0.3s ease; 
+	 cursor: pointer;
 }
 
 .highlight:hover{
@@ -22,6 +23,7 @@
 .highlighter{
 	border-radius: 100%;
 	background-color: black;
+	cursor: pointer;
 }
 
 .highlighter{
@@ -51,4 +53,5 @@
 	width: 2em;
 	background-color: black;
 	margin: auto;
+	cursor: pointer;
 }
