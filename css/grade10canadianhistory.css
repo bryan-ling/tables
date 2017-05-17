@@ -75,6 +75,7 @@ td{
 	height: 100px;
 	padding-left: 2%;
 	min-width: 170px;
+	user-select: none;
 }
 .answers{
 	opacity: 0;
